@@ -114,3 +114,15 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+
+defaults:
+  -
+    scope:
+      path: "about.md"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "projects.html"
+    values:
+      sitemap: false
