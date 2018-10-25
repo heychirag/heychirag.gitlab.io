@@ -3,7 +3,7 @@ name: Chirag Arora
 bio: Full-Time Student at the intersection of Engineering, Physics and Computer Science
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Chirag Arora's Homepage and Blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -22,7 +22,7 @@ url: http://chira.ga
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-110591063-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
