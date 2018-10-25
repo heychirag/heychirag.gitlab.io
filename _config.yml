@@ -5,6 +5,15 @@ bio: Full-Time Student at the intersection of Engineering, Physics and Computer 
 # twitter summary info
 description: Chirag Arora's Homepage and Blog
 
+social:
+  name: Chirag Arora
+  links:
+    - https://www.facebook.com/heychirag
+    - http://instagram.com/chira.ga
+    - https://www.linkedin.com/in/heychirag
+    - https://github.com/heychirag
+    - https://gitlab.com/heychirag
+
 # if it's an external image, update below for true
 # better with square images
 external-image: false
