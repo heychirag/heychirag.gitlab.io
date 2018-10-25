@@ -25,7 +25,7 @@ resume: true
 resume-external: true
 resume-url: http://resume.chira.ga
 
-url: http://chira.ga
+url: https://chira.ga
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
