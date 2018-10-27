@@ -23,7 +23,7 @@ picture: assets/images/profile.jpeg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: http://resume.chira.ga
+resume-url: http://chira.ga/resume
 
 url: https://chira.ga
 # your url: http://USERNAME.github.io
@@ -111,6 +111,7 @@ plugins:
   - jekyll-admin
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 jekyll-mentions:
     base_url: https://github.com
