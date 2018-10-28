@@ -111,6 +111,7 @@ plugins:
   - jekyll-admin
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 jekyll-mentions:
     base_url: https://github.com
