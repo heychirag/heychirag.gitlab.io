@@ -23,9 +23,9 @@ picture: assets/images/profile.jpeg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: http://resume.chira.ga
+resume-url: http://Resume.Chira.gA
 
-url: https://chira.ga
+url: https://Chira.gA
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -48,11 +48,11 @@ facebook: heychirag
 # google: mygoogle
 instagram: chira.ga
 # pinterest: mypinterest
-linkedin: heychirag
+linkedin: Linkedin.Chira.gA
 # youtube: myyoutube
 spotify: chiragarora
-github: heychirag
-gitlab: heychirag
+github: GitHub.Chira.gA
+gitlab: GitLab.Chira.gA
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: Chirag-Arora-10
@@ -60,7 +60,7 @@ gitlab: heychirag
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: i@chira.ga
+email: i@Chira.gA
 
 authors:
     heychirag:
