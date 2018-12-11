@@ -13,7 +13,7 @@ One of the amazing features that the Seagate Personal Cloud equipped with is its
 
 One of the biggest issues that I faced with the stock download manager was that once a bunch of torrents are in the queue, completed torrents start seeding instead of new ones downloading. This was because seeding torrents are categorized as active, and since there is a limit to how many torrents can stay active at a time, torrents next in the queue are not switched to the active state. So in theory, new torrents would never get downloaded as seeding torrent occupy the active quota. One possible solution was to increase the number of simultaneous downloads, but that isn't too practical provided the tiny amount of RAM and a low powered processor that ships with the Personal Cloud. The only solution was to find a way to stop the automatic torrent seeding!
 
-Everything is possible if you have SSH and root access to any machine. (Click here if you'd like to learn how to activate SSH on the Seagate Personal Cloud). I went ahead and found the config file of Transmission(the torrent client) and changed some variables. Voila! The problem was solved.
+Everything is possible if you have SSH and root access to any machine. (Click [here]({{ site.url }}/seagate-personal-cloud-hack-activating-ssh/) if you'd like to learn to activate SSH on the Seagate Personal Cloud). I went ahead and found the config file of Transmission(the torrent client) and changed some variables. Voila! The problem was solved.
 
 To achieve the same on your Personal cloud, you will be needing root access to perform the changes to the Transmission config file. Run the following command to go root:
 
