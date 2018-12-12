@@ -9,7 +9,7 @@ tag:
 author: heychirag
 ---
 
-One of the amazing features that the Seagate Personal Cloud equipped with is its ability to download torrents directly on the NAS itself. But also, not one of the great features is the lack of control Seagate gave to the user over the torrents.
+One of the amazing features that the Seagate Personal Cloud equipped with is its ability to download torrents directly on the NAS itself. But also, not one of the great features is the lack of control Seagate gave user over the torrents.
 
 One of the biggest issues that I faced with the stock download manager was that once a bunch of torrents are in the queue, completed torrents start seeding instead of new ones downloading. This was because seeding torrents are categorized as active, and since there is a limit to how many torrents can stay active at a time, torrents next in the queue are not switched to the active state. So in theory, new torrents would never get downloaded as seeding torrent occupy the active quota. One possible solution was to increase the number of simultaneous downloads, but that isn't too practical provided the tiny amount of RAM and a low powered processor that ships with the Personal Cloud. The only solution was to find a way to stop the automatic torrent seeding!
 
