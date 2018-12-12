@@ -6,6 +6,7 @@ category: blog
 tag:
 - seagate personal cloud
 - hacks
+keywords: root, access, disable, deactivate, torrent, seeding, seagate, personal, cloud
 author: heychirag
 ---
 

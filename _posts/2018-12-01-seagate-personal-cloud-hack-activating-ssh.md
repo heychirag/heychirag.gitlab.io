@@ -6,6 +6,7 @@ category: blog
 tag:
 - seagate personal cloud
 - hacks
+keywords: enable, ssh, access, seagate, personal, cloud
 author: heychirag
 ---
 
