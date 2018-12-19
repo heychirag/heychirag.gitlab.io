@@ -31,10 +31,10 @@ Once you are root (own the responsibility!), open the config file for editing:
 Make the following changes to the JSON:
 
     {
-      ...
-      "ratio-limit": 0,
-      "ratio-limit-enabled": true,
-      ...
+        ...
+        "ratio-limit": 0,
+        "ratio-limit-enabled": true,
+        ...
     }
 
 write/exit the config and restart the download manager from the Personal Cloud management interface.
