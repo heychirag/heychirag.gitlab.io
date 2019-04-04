@@ -129,3 +129,5 @@ defaults:
       path: "projects.html"
     values:
       sitemap: false
+
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
