@@ -114,7 +114,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-
+  - jekyll-google-photos
+    
 jekyll-mentions:
     base_url: https://github.com
 
