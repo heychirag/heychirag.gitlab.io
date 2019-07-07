@@ -14,11 +14,13 @@ For some reason, I am just not able to get enough of finding and trying out diff
 
 After realizing my NAS uses transmission as its default torrent client, it didn't take me long to check if I had access to its web interface. The web interface is similar to the GUI of a torrent client. No doubt, it is the best way to manage torrents as almost every possible setting can be adjusted through it. So I instantly jumped over to `http://nas.lan:9091` (9091 is the port transmission runs on), but unfortunately, a `403 Forbidden` message greeted me. Quite obviously, the Seagate NAS OS developers had to design everything so meticulously and fix all vulnerabilities to block my access to transmission's web interface. However, upon Googling the issue, I found that there was an easy fix to this problem; which was to add the following rule to the config file (check [this]({{ site.url }}/disabling-torrent-seeding-on-the-seagate-personal-cloud/) post if you would like to know where to find the config file):
 
-    {
-        ...
-        "rpc-whitelist": "127.0.0.1,10.0.0.*",
-        ...
-    }
+{% highlight json %}
+{% raw %}
+{
+    "rpc-whitelist": "127.0.0.1,10.0.0.*",
+}
+{% endraw %}
+{% endhighlight %}
 
 `10.0.0.*` whitelists all the IP's present on my home network which enables me to access the web interface from all the devices at my home. However, you may want to prevent unauthorized access. In that case, you can whitelist only some IPs or even enable `rpc-authentication-required` by specifying an `rpc-username` as well as an `rpc-password`. Do keep in mind that enabling this will screw up Seagate's stock Download Manager, but If you do not intend to use it anyway, then no harm shall be caused.
 
@@ -51,3 +53,4 @@ If you are looking for a desktop client, check out [this](https://github.com/tra
 _Bonus tip:_ If your ISP provides a static public IP, you can add that to the whitelist. Further, by enabling port forward on your router, you can connect to your NAS torrent client from anywhere in the world.
 
 Cheers!
+<div class="breaker"></div>

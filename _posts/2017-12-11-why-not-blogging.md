@@ -16,3 +16,5 @@ Blogging is similar to writing a diary except, people don't go too deep about sh
 Blogging is also a way of staying connected to a language. Since English is not native to India, I don’t get enough opportunity to converse in it on a day-to-day basis. This blog will act as an outlet where I will try to articulate myself in the English language. As a suggestion, I would recommend start writing a blog or a diary to anyone who wishes to become proficient in their second language.
 
 I would appreciate if readers could drop their suggestions or even better, proofread my posts. I am also using some online tools to rectify the most critical mistakes, but for those ‘advanced’ errors, your input would prove to be a great help.
+<div class="breaker"></div>
+

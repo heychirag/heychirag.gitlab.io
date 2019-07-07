@@ -18,27 +18,36 @@ Everything is possible if you have SSH and root access to any machine. (Click [h
 
 To achieve the same on your Personal cloud, you will be needing the root access to perform changes to the Transmission config file. Run the following command to go root:
 
-    [chirag@PersonalCloud ~]$ sudo su
+{% highlight shell %}
+chirag@PersonalCloud:~$ sudo su
+{% endhighlight %}
 
 Enter the same password you used to SSH into the Personal Cloud. If it throws up an error, then you probably aren't the admin. Run this command to know who is:
 
-    [chirag@PersonalCloud ~]$ grep nas_admins /etc/group
+{% highlight shell %}
+chirag@PersonalCloud:~$ grep nas_admins /etc/group
+{% endhighlight %}
 
 Once you are root (own the responsibility!), open the config file for editing:
 
-    [root@PersonalCloud ~]# vi /root/.config/transmission-daemon/settings.json
+{% highlight shell %}
+root@PersonalCloud:~# vi /root/.config/transmission-daemon/settings.json
+{% endhighlight %}
 
 Make the following changes to the JSON:
 
-    {
-        ...
-        "ratio-limit": 0,
-        "ratio-limit-enabled": true,
-        ...
-    }
+{% highlight json %}
+{% raw %}
+{
+    "ratio-limit": 0,
+    "ratio-limit-enabled": true,
+}
+{% endraw %}
+{% endhighlight %}
 
 write/exit the config and restart the download manager from the Personal Cloud management interface.
 
 What this does is sets the seeding ratio to zero. This means that torrents will automatically halt once they are done downloading. You can also set this ratio to a positive real number as everyone in the torrenting world expects you to be somewhat generous.
 
 Cheers!
+<div class="breaker"></div>
