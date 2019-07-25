@@ -9,23 +9,17 @@ description: Chirag Arora's Homepage and Blog
 
 social:
   name: Chirag Arora
-  links:
-      #- https://www.facebook.com/heychirag
-    - http://instagram.com/_heychirag
-    - https://www.linkedin.com/in/heychirag
-    - https://github.com/heychirag
-    - https://gitlab.com/heychirag
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpeg
+#picture: assets/images/profile.jpeg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: http://resume.chira.ga
+#resume: true
+#resume-external: true
+#resume-url: http://resume.chira.ga
 
 url: https://chira.ga
 # your url: http://USERNAME.github.io
@@ -48,13 +42,13 @@ disqus:
 #facebook: heychirag
 # twitter: mytwitter
 # google: mygoogle
-instagram: _heychirag
+#instagram: _heychirag
 # pinterest: mypinterest
-linkedin: linkedin.chira.ga
+#linkedin: linkedin.chira.ga
 # youtube: myyoutube
-spotify: chiragarora
-github: github.chira.ga
-gitlab: gitlab.chira.ga
+#spotify: chiragarora
+#github: github.chira.ga
+#gitlab: gitlab.chira.ga
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: Chirag-Arora-10
@@ -62,7 +56,7 @@ gitlab: gitlab.chira.ga
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: i@chira.ga
+#email: i@chira.ga
 
 authors:
     heychirag:
