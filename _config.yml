@@ -10,8 +10,6 @@ description: Chirag Arora's Homepage and Blog
 social:
   name: Chirag Arora
   links:
-      #- https://www.facebook.com/heychirag
-    - http://instagram.com/_heychirag
     - https://www.linkedin.com/in/heychirag
     - https://github.com/heychirag
     - https://gitlab.com/heychirag
@@ -48,11 +46,11 @@ disqus:
 #facebook: heychirag
 # twitter: mytwitter
 # google: mygoogle
-instagram: _heychirag
+#instagram: 
 # pinterest: mypinterest
 linkedin: linkedin.chira.ga
 # youtube: myyoutube
-spotify: chiragarora
+# spotify: 
 github: github.chira.ga
 gitlab: gitlab.chira.ga
 # lastfm: mylastfm
