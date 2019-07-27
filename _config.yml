@@ -63,7 +63,7 @@ authors:
         name: Chirag Arora
         bio: Full-Time Student at the intersection of Engineering, Physics and Computer Science
         external-image: false
-        #picture: assets/images/profile.jpeg
+        picture: assets/images/profile.jpeg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
