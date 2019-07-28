@@ -12,17 +12,17 @@ author: heychirag
 
 One of the amazing features that the Seagate Personal Cloud equipped with is its ability to download torrents directly on the NAS itself. But also, not one of the great features is the lack of control Seagate gave user over the torrents.
 
-The biggest issue I faced with the stock download manager was that once a bunch of torrents are in the queue, recently completed torrents start seeding instead of new ones downloading. This was because seeding torrents are categorized as active, and since there is a limit to how many torrents can stay active at any time, torrents next in the queue were not switched to the active state. So in theory, new torrents would never get downloaded as seeding torrents occupied the active quota. One possible solution was to increase the number of simultaneous downloads, but that too wasn't practical considering the tiny amount of RAM and the low powered processor available on the Personal Cloud. The only possible solution was to find a way to stop the torrents from seeding automatically.
+Here is how the stock download manager works. There are two queues, one for active and one for inactive torrents. The active-queue is a special one because only a limited number of torrents can stay in it at any given time. For the download manager to move a new torrent from the inactive-queue to the active-queue, a torrent from the active-queue must be stopped when it's completed. Why doesn't the torrents stop automatically when completed? This is because when a torrent is done downloading, it starts seeding itself without realizing new torrents are waiting in the inactive-queue to be moved to the much-coveted active-queue. In theory, some torrents would seed forever while new torrents would never get a chance to download. Unfair right? The only possible solution to solve this problem was to find a way to limit the seed time of torrents or maybe stopping them from seeding altogether.
 
-Everything is possible if you have SSH and root access to any machine. (Click [here]({{ site.url }}/seagate-personal-cloud-hack-activating-ssh/) if you'd like to learn to activate SSH on the Seagate Personal Cloud). So I went ahead and found the config file of Transmission(the torrent client) and changed some variables. Voila! The problem was solved.
+Everything is possible if you have an SSH and root access to a machine. (Click [here]({{ site.url }}/seagate-personal-cloud-hack-activating-ssh/) if you'd like to learn to activate SSH on the Seagate Personal Cloud). Confident that some generic torrent client was being used at the backend, I went ahead and dug into the NAS OS's filesystem. I eventually found Transmission and knowing that making some necessary changes to its config file will do the tricks, I made it work.
 
-To achieve the same on your Personal cloud, you will be needing the root access to perform changes to the Transmission config file. Run the following command to go root:
+Go ahead and punch in the following commands in your shell to do the same with your Personal cloud. But first, go root:
 
 {% highlight shell %}
 chirag@PersonalCloud:~$ sudo su
 {% endhighlight %}
 
-Enter the same password you used to SSH into the Personal Cloud. If it throws up an error, then you probably aren't the admin. Run this command to know who is:
+Enter the same password you used to SSH into the machine. If it throws up an error, you probably aren't an admin then. Run this to know who is:
 
 {% highlight shell %}
 chirag@PersonalCloud:~$ grep nas_admins /etc/group
@@ -39,15 +39,17 @@ Make the following changes to the JSON:
 {% highlight json %}
 {% raw %}
 {
+    ...
     "ratio-limit": 0,
     "ratio-limit-enabled": true,
+    ...
 }
 {% endraw %}
 {% endhighlight %}
 
 write/exit the config and restart the download manager from the Personal Cloud management interface.
 
-What this does is sets the seeding ratio to zero. This means that torrents will automatically halt once they are done downloading. You can also set this ratio to a positive real number as everyone in the torrenting world expects you to be somewhat generous.
+This essentially sets your torrent seeding ratio to zero. So no more seeding and going to sleep when done downloading. You may consider setting this ratio to something above zero as everyone in the torrenting world expects you to pay back your torrenting karmas.
 
 Cheers!
 <div class="breaker"></div>
