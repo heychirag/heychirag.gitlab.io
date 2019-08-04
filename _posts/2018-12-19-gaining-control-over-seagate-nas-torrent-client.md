@@ -35,7 +35,7 @@ The good news is transmission daemon is now listening to us over the 9091 port. 
 
 Few clients are already available on the Play Store. I have tested two of them and they work really well (screenshots below).
 
-<div style="width:100%;margin:6rem 0 6rem 0%;" class="side-by-side">
+<div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/assets/images/remote-transmission.jpg" alt="Remote Transmission">
         <figcaption class="caption">Remote Transmission</figcaption>

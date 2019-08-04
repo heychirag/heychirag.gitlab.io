@@ -46,11 +46,11 @@ disqus:
 #facebook: heychirag
 # twitter: mytwitter
 # google: mygoogle
-#instagram: 
+#instagram:
 # pinterest: mypinterest
 linkedin: linkedin.chira.ga
 # youtube: myyoutube
-# spotify: 
+# spotify:
 github: github.chira.ga
 gitlab: gitlab.chira.ga
 # lastfm: mylastfm
@@ -72,7 +72,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 paginate: 5
@@ -113,7 +113,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-google-photos
-    
+
 jekyll-mentions:
     base_url: https://github.com
 
