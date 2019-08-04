@@ -47,7 +47,7 @@ Coming back from CERN, everyone would get busy finishing chores and cooking dinn
 CERN provided us with bikes for a deposit of 100 CHF that would be redeemable upon bike return towards the end of summer. Check out how was it like to bike from my hotel to Building #31 inside CERN. A lot of people did get their bikes stolen for not having a presence of mind and consequently making bad parking decisions. The safest place to park bikes is inside CERN and at your hotel that would usually have a parking area reinforced with metal for this very purpose. This also shows us such petty crimes are not so uncommon even in rich countries like Switzerland and France.
 {: .text-justify}
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=XbjHdENluNQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XbjHdENluNQ" frameborder="0" allowfullscreen></iframe>
 
 Like in any other European city, public transport in Geneva is immaculate. Comprising of both buses and streetcar, the frequency is good and connectivity wide. There is also, of course, the Geneva airport from where you can fly to any European city you want. Besides that, there is a world-class train system which can be used for day trips to places like Montreux and Lausanne. Trains are not cheap in Europe. And with prior planning, you can fly super cheap on low-cost carriers like EasyJet and Ryanair. As an example, my flight to Rome cost me less than the train I took to Montreux. An even cheaper option to hop between cities is a bus. Though not extremely reliable, they surely are lifesavers.
 {: .text-justify}
@@ -80,7 +80,7 @@ Further, CERN also organized in-house visits for us to its various facilities. W
 
 #### Recreation
 
-On days we weren’t travelling to other places, we used to indulge ourselves into the wide array of recreational activities Geneva had to offer. Dipping in Lake Geneva on a hot summer day. Attending various concerts at the Geneva music festival. Going to _Plainpalais_ to catch the public screening of the World Cup. Clubbing through the night and reaching back to our apartments in the morning. Barbequing in the park beside _Perle du Lac_ using disposable grills. Somewhere in mid-august, there is the annual Geneva Fireworks; music-synchronized fireworks that light up the sky for a whole forty-five minutes.
+On days we weren’t travelling to other places, we used to indulge ourselves into the wide array of recreational activities Geneva had to offer. Dipping in Lake Geneva on a hot summer day. Attending various concerts at the Geneva music festival. Going to _Plainpalais_ to catch the public screening of the World Cup. Clubbing through the night and reaching back to our apartments in the morning. Barbequing in the park beside _Perle du Lac_ using disposable grills. Somewhere in mid-august, there are the annual Geneva Fireworks; music-synchronized fireworks that light up the sky for a whole forty-five minutes.
 {: .text-justify}
 
 #### The Work
