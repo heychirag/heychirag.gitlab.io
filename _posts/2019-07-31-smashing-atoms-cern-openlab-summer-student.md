@@ -44,7 +44,7 @@ Coming back from CERN, everyone would get busy finishing chores and cooking dinn
 
 #### Transportation
 
-CERN provided us with bikes for a deposit of 100 CHF that would be redeemable upon bike return towards the end of summer. Check out how was it like to bike from my hotel to Building #31 inside CERN. A lot of people did get their bikes stolen for not having a presence of mind and consequently making bad parking decisions. The safest place to park bikes is inside CERN and at your hotel that would usually have a parking area reinforced with metal for this very purpose. This also shows us such petty crimes are not so uncommon even in rich countries like Switzerland and France.
+CERN provided us with bikes for a deposit of 100 CHF that would be redeemable upon bike return towards the end of summer. A lot of people did get their bikes stolen for not having a presence of mind and consequently making bad parking decisions. The safest place to park bikes is inside CERN and at your hotel that would usually have a parking area reinforced with metal for this very purpose. This also shows us such petty crimes are not so uncommon even in rich countries like Switzerland and France. Check out how was it like to bike from my hotel to my office below.
 {: .text-justify}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XbjHdENluNQ" frameborder="0" allowfullscreen></iframe>
