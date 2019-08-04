@@ -2,7 +2,7 @@ timezone: "Asia/Kolkata"
 
 # main text of home
 name: Chirag Arora
-bio: Full-Time Student at the intersection of Engineering, Physics and Computer Science
+bio: Incoming SDE@Amazon
 
 # twitter summary info
 description: Chirag Arora's Homepage and Blog
@@ -65,7 +65,7 @@ email: i@chira.ga
 authors:
     heychirag:
         name: Chirag Arora
-        bio: Full-Time Student at the intersection of Engineering, Physics and Computer Science
+        bio: Incoming SDE@Amazon
         external-image: false
         picture: assets/images/profile.jpeg
 
