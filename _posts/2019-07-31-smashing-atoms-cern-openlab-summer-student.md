@@ -108,6 +108,7 @@ Let’s talk about some lessons I learnt during my stay at CERN. The most import
 This is not a conventional internship. As a tech guy, if the only thing you want to do is code, then the term ‘Openlab’ is as pretentious as the title of this post. Some students didn’t code even a single line during the entire summer; simply because their projects didn’t require it. Yes, I did manage to do some patch submissions but that was purely out of my will to take charge. Further, the project you’ll be working on is decided beforehand, and your supervisor may do little to accommodate your interests. Evidently, this could be a dealbreaker for many. Nevertheless, if you like travelling, and getting to know new people from different cultures and backgrounds, CERN will offer you an experience like no other. On top of everything, CERN’s brand name does shine bright on your resume and can help you unlock new doors.
 {: .text-justify}
 
-Cheers!
+<div><img src="{{ site.url }}/assets/images/openlab-globe-group-photo.jpg">
+<figcaption class="caption">Openlab Summer Students at the Globe of Science and Innovation</figcaption></div>
 
 <div class="breaker"></div>
