@@ -1,5 +1,5 @@
 ---
-title: Smashing Atoms - My experience as a CERN Openlab Summer Student
+title: Smashing Atoms - Journal of a CERN Openlab Summer Student
 layout: post
 date: '2019-07-31 22:17:51 +0530'
 category: blog
