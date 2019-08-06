@@ -8,6 +8,9 @@ tag:
 keywords: cern, openlab, summer, student, switzerland, france, lhc, internship
 author: heychirag
 star: true
+image: /assets/images/lhc_pipe_header.jpg
+headerImage: true
+description: Sharing my experience being a CERN Openlab Summer Student Intern
 ---
 
 It all started back in December 2017 when I cold emailed one of the assistant professors at IIITD. I was looking to get undergraduate research experience to supplement my resume to get into the master’s programme at a top university. Previously, I had been a part of the Google Summer of Code programme for two years in a row, taking turns both as a student and as a mentor. Therefore, I thought a research experience would be a great diversification of my resume. The professor reverted positively and invited me for a meeting in his office. He had a project for me that I found very stimulating, especially because it was oriented towards helping the blind. Before I could start with this project, I was required to go through a few online courses that would help me deal with the challenges I could face ahead. Three weeks later, when I was on the verge of completing the courses, I pinged him back to schedule another meeting. But to my surprise, it was a no-show from his side. I frantically bumped emails up his mailbox over and over, only to later discover he had given the project to someone else. Though not heartbreaking, it wasn’t a good feeling either.
