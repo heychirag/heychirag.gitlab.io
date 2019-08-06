@@ -5,7 +5,7 @@ name: Chirag Arora
 bio: Incoming SDE@Amazon
 
 # twitter summary info
-description: Chirag Arora's Homepage and Blog
+description: Chirag's Homepage and Blog
 
 social:
   name: Chirag Arora
@@ -43,10 +43,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: heychirag
+# facebook:
 # twitter: mytwitter
 # google: mygoogle
-#instagram:
+# instagram:
 # pinterest: mypinterest
 linkedin: linkedin.chira.ga
 # youtube: myyoutube
@@ -54,7 +54,7 @@ linkedin: linkedin.chira.ga
 github: github.chira.ga
 gitlab: gitlab.chira.ga
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+stackoverflow: 6900540
 # quora: Chirag-Arora-10
 # reddit: username
 # medium: medium
