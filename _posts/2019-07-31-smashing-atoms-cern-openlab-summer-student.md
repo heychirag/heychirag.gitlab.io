@@ -23,7 +23,7 @@ As there was no traditional interview loop involved, what I needed to do was wri
 My brother was graduating from the University of Toronto that summer. Miraculously, everything fell right into place, and I was able to attend his graduation ceremony as well as participate in CERN’s Openlab Summer Student programme. During the course of summer, I ended up taking the following route w/layovers; _Delhi -> Munich -> Toronto -> Montreal -> Geneva -> Rome -> Geneva -> Zurich -> Delhi_. It felt as if I was on a flying spree. Since I had arrived in Geneva almost a week before my internship, I grabbed the seemingly excellent opportunity to go backpacking in Rome. Also, during the registration period, I had made acquaintances with some of the fellow Openlab Students over social media. One of my acquaintances had a senior from his university who was now a _Technical Student_ at CERN. The day I came back to Geneva, he invited all Openlab Students for a pool party at his place; not on account of my return though. But I had never imagined in my wildest dreams about having a bash on my very first day in Geneva. A really warm welcome indeed.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/roman-colosseum.jpg">
+<div><img src="/assets/images/roman-colosseum.jpg">
 <figcaption class="caption">At the Roman Colosseum</figcaption></div>
 
 #### Day one at CERN
@@ -41,7 +41,7 @@ CERN booked apartments for us in an apart-hotel which was two kilometres away in
 I usually ate a bowl of muesli w/yogurt along with coffee for breakfast. Although light, the breakfast helped me sail through for three hours, after which, I would go to one of the CERN’s Restaurants (_R1_ or _R2_) to have lunch. The food served in both restaurants is of impeccable quality. I rarely have tasted such scrumptious food elsewhere, at least, not in India. Daily meal at CERN could cost anywhere between 9-13 CHF provided you are not taking coffee breaks in between. The menu is refreshed every day, bringing up new delicacies to our plates. As far as I remember, they have equally good options for vegans too. To reach R2 from Building #31, I used to cross an international border (see below). Technically, Building #31 is located in France while R2 is located in Switzerland. The border is ‘virtual’ as it only exists on maps and papers. There are actually no physical signs of a land border inside CERN. This situation amused me every time I compared it with the insane conditions at the India-Pakistan border.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/building-31-r2.png">
+<div><img src="/assets/images/building-31-r2.png">
 <figcaption class="caption">The Franco-Swiss border lies between Building #31 and R2</figcaption></div>
 
 Coming back from CERN, everyone would get busy finishing chores and cooking dinner. But on some days, we would gather enough strength to organize bonding sessions in one of the apartments. On other days, we would go out to the park to treat ourselves to a nice game of _Werewolf_. When we were too lazy to cook, we also had an option to do a takeaway from the nearby grill. Between all this, we had a special place for _Charly’s Pub_ in our hearts. This was our goto hangout place to wind down and to grab a drink. Almost every Friday, we partied at R1. Gulping insane amounts of alcohol and getting lost in CERN’s labyrinth of underground tunnels in hope to find the _Summer Student Temple_ was a ritual.
@@ -68,7 +68,7 @@ After a week when all students had arrived, CERN took us to Zurich for visits to
 Driving in Europe is an experience that can’t be explained through words. It is a feeling you can only understand by living it yourself. Having driven all my life in India, I found Europe to be the polar opposite. Not just because they drive on the right, but because of the etiquettes they follow. Driving in lanes, proper use of turn signals, paying attention to road signs and an aversion to honking incessantly. All of this is nowhere to be seen in India. Things only got better when we entered Germany. Throughout the trip, we were constantly on the lookout for speed limits to avoid getting ticketed. But as soon as we crossed the German border, speed limiting signs just seemed to have vanished. It was a confusing situation at first, and I stayed within the standard limits to be on the safe side. Then it struck me like a jolt of lightning; there are no speed limits on the _autobahn_. Where else would I be driving if I was driving on a German highway? From that point on, it was only blazing fast speeds for us. There are merely two words to describe what it's like to drive on the autobahn: _orgasmically gratifying_.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/freiburg-group-photo.jpg">
+<div><img src="/assets/images/freiburg-group-photo.jpg">
 <figcaption class="caption">In Freiburg im Breisgau</figcaption></div>
 
 On Sunday, we headed back to Switzerland, making a stop at Lucerne before leaving for Geneva. When you see enough European cities, you discover a fact; every European city has more or less, the same vibe. It was a long and mundane drive back to Geneva and nothing much exciting happened until we crossed the border back again into France to reach our hotel. As soon as we made our way through the _Big Roundabout_ to enter Saint-Genis-Pouilly, we were greeted by an unusual commotion. Cars were honking in unison with their blinkers on and out of the blue, a biker had just jumped in front of us to perform a burnout. What was going on over here? Out of a sheer stroke of luck for us to witness this celebration, France had won the World Cup! It was a stunning sight, and we could only imagine how crazy and wild would folks be going on in big cities like Paris and Marseille.
@@ -77,13 +77,13 @@ On Sunday, we headed back to Switzerland, making a stop at Lucerne before leavin
 My initial plan was to visit a new European city every weekend. But this indeed was a very ambitious plan, and miles away from what actually was achievable. We tried to stretch, but we could have done only so much. By the end, I was able to visit Milan, Montreux, Annecy, Chamonix, and Lausanne as part of my weekend expeditions.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/paragliding-montreux.jpg">
+<div><img src="/assets/images/paragliding-montreux.jpg">
 <figcaption class="caption">Paragliding in Montreux</figcaption></div>
 
 Further, CERN also organized in-house visits for us to its various facilities. We visited the _Antimatter Factory_, the _Computer Centre_, the _CERN Control Centre_ (CCC), _SM18_ (SM stands for Superconducting Magnets), the _Compact Muon Solenoid_ (CMS), _A Large Ion Collider Experiment_ (ALICE), _A Toroidal LHC Apparatus_ (ATLAS), and a host of particle accelerators ranging from cyclotrons to synchrotrons I can’t seem to remember the names of. Unfortunately enough, we didn’t get to see the LHC as it was under operation during that period.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/antimatter-factory.jpg">
+<div><img src="/assets/images/antimatter-factory.jpg">
 <figcaption class="caption">Visiting the Antimatter Factory</figcaption></div>
 
 #### Recreation
@@ -116,7 +116,7 @@ Let’s talk about some lessons I learnt during my stay at CERN. The most import
 This is not a conventional internship. As a tech guy, if the only thing you want to do is code, then the term ‘Openlab’ is as pretentious as the title of this post. Some students didn’t code even a single line during the entire summer; simply because their projects didn’t require it. Yes, I did manage to submit some patches, but that was purely out of my will to take charge. Further, the project you’ll be working on is decided beforehand, and your supervisor may do little to accommodate your interests. Evidently, this could be a dealbreaker for many. Nevertheless, if you like travelling, and getting to know new people from different cultures and backgrounds, then CERN will offer you an experience like no other. On top of everything, CERN’s brand name does shine bright on your resume and can help you unlock new doors.
 {: .text-justify}
 
-<div><img src="{{ site.url }}/assets/images/openlab-globe-group-photo.jpg">
+<div><img src="/assets/images/openlab-globe-group-photo.jpg">
 <figcaption class="caption">At the Globe of Science and Innovation</figcaption></div>
 
 <div class="breaker"></div>

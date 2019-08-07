@@ -13,7 +13,7 @@ author: heychirag
 For some reason, I am just not able to get enough of finding and trying out different ways to take control over my NAS's torrent client.
 {: .text-justify}
 
-After realizing my NAS uses transmission as its default torrent client, it didn't take me long to check if I had access to its web interface. The web interface is similar to the GUI of a torrent client. No doubt, it is the best way to manage torrents as almost every possible setting can be adjusted through it. So I instantly jumped over to `http://nas.lan:9091` (9091 is the port transmission runs on), but unfortunately, a `403 Forbidden` message greeted me. Quite obviously, the Seagate NAS OS developers had to design everything so meticulously and fix all vulnerabilities to block my access to transmission's web interface. However, upon Googling the issue, I found that there was an easy fix to this problem; which was to add the following rule to the config file (check [this]({{ site.url }}/disabling-torrent-seeding-on-the-seagate-personal-cloud/) post if you would like to know where to find the config file):
+After realizing my NAS uses transmission as its default torrent client, it didn't take me long to check if I had access to its web interface. The web interface is similar to the GUI of a torrent client. No doubt, it is the best way to manage torrents as almost every possible setting can be adjusted through it. So I instantly jumped over to `http://nas.lan:9091` (9091 is the port transmission runs on), but unfortunately, a `403 Forbidden` message greeted me. Quite obviously, the Seagate NAS OS developers had to design everything so meticulously and fix all vulnerabilities to block my access to transmission's web interface. However, upon Googling the issue, I found that there was an easy fix to this problem; which was to add the following rule to the config file (check [this](/disabling-torrent-seeding-on-the-seagate-personal-cloud/) post if you would like to know where to find the config file):
 {: .text-justify}
 
 {% highlight json %}
@@ -30,7 +30,7 @@ After realizing my NAS uses transmission as its default torrent client, it didn'
 But wait, if we now try and open the web interface, we see the following message.
 {: .text-justify}
 
-![Missing web interface files]({{ site.url }}/assets/images/web-interface-files-missing.png)
+![Missing web interface files](/assets/images/web-interface-files-missing.png)
 <!--figcaption class="caption">Transmission web interface files are missing on the NAS OS</figcaptio-->
 
 The developers decided to omit the web interface files to keep the OS lite. And unfortunately, there's no easy way to install the web interface on your own due to a missing package manager.
@@ -44,12 +44,12 @@ Few clients are already available on the Play Store. I have tested two of them a
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/assets/images/remote-transmission.jpg" alt="Remote Transmission">
+        <img class="image" src="/assets/images/remote-transmission.jpg" alt="Remote Transmission">
         <figcaption class="caption">Remote Transmission</figcaption>
     </div>
 
     <div class="toright">
-        <img class="image" src="{{ site.url }}/assets/images/transmission-remote.jpg" alt="Transmission Remote">
+        <img class="image" src="/assets/images/transmission-remote.jpg" alt="Transmission Remote">
         <figcaption class="caption">Transmission Remote</figcaption>
     </div>
 </div>
@@ -62,4 +62,5 @@ _Bonus tip:_ If your ISP provides a static public IP, you can add that to the wh
 {: .text-justify}
 
 Cheers!
+
 <div class="breaker"></div>

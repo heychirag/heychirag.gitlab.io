@@ -16,7 +16,7 @@ One of the amazing features that the Seagate Personal Cloud equipped with is its
 Here is how the stock download manager works. It has two queues, one for active and one for inactive torrents. Depending on the settings, few torrents are moved to the active-queue initially while the rest must remain in the inactive-queue to wait for active torrents to complete. As soon as a torrent from the active-queue is marked completed, the next torrent waiting in line in the inactive-queue is moved to the active-queue. The problem? Torrents are never marked completed. Why? This is because when a torrent is done downloading, it starts to seed itself. So in theory, few torrents would seed forever while the rest would never get a chance to download. Unfair right? Hence the only possible solution was to find a way to limit the seed time of torrents, or maybe to stop them from seeding altogether.
 {: .text-justify}
 
-Everything is possible if you have an SSH and root access to a machine. (Click [here]({{ site.url }}/seagate-personal-cloud-hack-activating-ssh/) if you want to activate SSH on your Personal Cloud). Confident that some generic torrent client was being used at the backend, I went ahead and dug into the NAS OS's filesystem. I eventually found Transmission and knowing that making some necessary changes to its config file will do the trick, it worked!
+Everything is possible if you have an SSH and root access to a machine. (Click [here](/seagate-personal-cloud-hack-activating-ssh/) if you want to activate SSH on your Personal Cloud). Confident that some generic torrent client was being used at the backend, I went ahead and dug into the NAS OS's filesystem. I eventually found Transmission and knowing that making some necessary changes to its config file will do the trick, it worked!
 {: .text-justify}
 
 Go ahead and punch in the following commands in your shell to tame your Personal Cloud. But first, you need to go root:
@@ -60,4 +60,5 @@ This essentially sets your seeding ratio to zero. This means torrents will doze 
 {: .text-justify}
 
 Cheers!
+
 <div class="breaker"></div>

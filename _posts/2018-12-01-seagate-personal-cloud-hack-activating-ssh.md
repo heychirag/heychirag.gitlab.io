@@ -21,7 +21,7 @@ Head over to the following address replacing the angular brackets with your NAS 
 Going over to the services page in the Device Manager, you'll now be able to see an option to toggle the SSH Access.
 {: .text-justify}
 
-![Enable SSH Access]({{ site.url }}/assets/images/seagate-ssh-access.png)
+![Enable SSH Access](/assets/images/seagate-ssh-access.png)
 
 If you are already using the SFTP service, you'll need to switch it off since otherwise, it'll result in a port clash (both run on port 22). You'll still be able to use the SFTP service with the SSH Access turned on since SFTP is an inherent feature of SSH but not the other way around.
 {: .text-justify}
