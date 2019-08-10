@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: https://chira.ga/sitemap.xml
+SITEMAP: https://chira.ga/sitemap.xml
 
