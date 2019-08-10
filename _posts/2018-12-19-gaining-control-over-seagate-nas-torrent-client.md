@@ -4,10 +4,14 @@ layout: post
 date: '2018-12-19 20:38:43 +0530'
 category: blog
 tag:
-- seagate personal cloud
-- hacks
-keywords: connect, seagate, personal, cloud, torrent, client, external, web, interface
+- Seagate Personal Cloud
+- Hacks
+- NAS OS
+- Torrenting
+- Transmission
+- Root
 author: heychirag
+description: An alternate and better way to manage torrents on the Seagate Personal Cloud
 ---
 
 For some reason, I am just not able to get enough of finding and trying out different ways to take control over my NAS's torrent client.

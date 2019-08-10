@@ -4,10 +4,11 @@ layout: post
 date: '2018-12-01 21:10:36 +0530'
 category: blog
 tag:
-- seagate personal cloud
-- hacks
-keywords: enable, ssh, access, seagate, personal, cloud
+- Seagate Personal Cloud
+- Hacks
+- NAS OS
 author: heychirag
+description: Steps to enable SSH access on the Seagate Personal Cloud
 ---
 
 If you are a tinkerer like me and you own a Seagate Personal Cloud, you probably would have wanted to be able to SSH into your new NAS. But going down the services page in the Device Manager, you may have found an option to enable SFTP but not the SSH. Don't worry, you can enable SSH on your Seagate Personal Cloud with this simple hack.

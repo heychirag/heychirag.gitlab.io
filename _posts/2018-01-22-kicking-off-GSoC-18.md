@@ -6,8 +6,9 @@ category: blog
 tag:
 - GSoC
 - "2018"
-- starcross
+- StarCross
 author: heychirag
+description: I am back as an Organisation Administrator for GSoC 2018
 ---
 
 This year marks the 14th year of the Google Summer of Code program. With 212 organizations in the total, of which 41 are new, this edition of GSoC is going to be the biggest yet. And I am back yet again serving as a mentor for my organization: [AOSSIE](http://aossie.gitlab.io), short<!-- more --> for _Australian Open Source Software Innovation and Education_. Quite a mouthful, right? But if you may have noticed, the abbreviation is a pun on the slang: _Aussie_ :D

@@ -5,7 +5,16 @@ date: '2019-07-31 22:17:51 +0530'
 category: blog
 tag:
 - CERN
-keywords: cern, openlab, summer, student, switzerland, france, lhc, internship
+- Openlab
+- Internship
+- Switzerland
+- France
+- LHC
+- Summer
+- Student
+- Function as a Service
+- Qinling
+- OpenStack
 author: heychirag
 star: true
 description: Sharing my experience being a CERN Openlab Summer Student Intern

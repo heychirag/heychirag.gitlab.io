@@ -5,8 +5,10 @@ date: '2017-12-11 10:52:24 +0530'
 category: blog
 author: heychirag
 tag:
-- blogging
-- reasons
+- Blogging
+- Diary
+- Writing
+description: First Blog Post
 ---
 
 Sure, blogging may sound like an old-fashioned way to socialize in the 2010s but it definitely helps in building an online presence. In a nutshell, online presence is the rank at which any of your online profiles appear on Google's search page when searched for you. Yes, the position at which a result is shown is known as the rank of a page. Google's algorithms rank each page to show results in decreasing order of relevance (Fact: Google's _"I'm Feeling Lucky"_ button takes you directly to the most relevant page i.e. the page at the first rank). Creating an online presence becomes even more challenging when there are hundreds of your namesakes around. To get a sense of the measure of my situation, it may interest you to know that I have had my namesakes in both my school and university. So it may take striving efforts for me to build up my rank and perhaps, even more, to maintain it.

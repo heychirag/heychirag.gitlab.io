@@ -4,10 +4,14 @@ layout: post
 date: '2018-12-12 02:32:08 +0530'
 category: blog
 tag:
-- seagate personal cloud
-- hacks
-keywords: root, access, disable, deactivate, torrent, seeding, seagate, personal, cloud
+- Seagate Personal Cloud
+- Hacks
+- NAS OS
+- Torrenting
+- Transmission
+- Root
 author: heychirag
+description: Steps to disable torrent seeding on the Seagate Personal Cloud
 ---
 
 One of the amazing features that the Seagate Personal Cloud equipped with is its ability to download torrents directly on the NAS itself. But also, not one of the great features is the lack of control Seagate gave user over the torrents.
