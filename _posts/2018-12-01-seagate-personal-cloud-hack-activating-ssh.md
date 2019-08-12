@@ -6,7 +6,6 @@ category: blog
 tag:
 - Seagate Personal Cloud
 - Hacks
-- NAS OS
 author: heychirag
 description: Steps to enable SSH access on the Seagate Personal Cloud
 ---

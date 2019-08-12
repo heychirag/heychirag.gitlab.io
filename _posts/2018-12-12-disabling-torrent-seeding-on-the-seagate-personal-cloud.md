@@ -6,10 +6,6 @@ category: blog
 tag:
 - Seagate Personal Cloud
 - Hacks
-- NAS OS
-- Torrenting
-- Transmission
-- Root
 author: heychirag
 description: Steps to disable torrent seeding on the Seagate Personal Cloud
 ---

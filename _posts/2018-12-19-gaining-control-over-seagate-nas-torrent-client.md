@@ -6,10 +6,6 @@ category: blog
 tag:
 - Seagate Personal Cloud
 - Hacks
-- NAS OS
-- Torrenting
-- Transmission
-- Root
 author: heychirag
 description: An alternate and better way to manage torrents on the Seagate Personal Cloud
 ---

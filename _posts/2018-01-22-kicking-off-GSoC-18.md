@@ -5,8 +5,6 @@ date: '2018-01-22 02:54:49 +0530'
 category: blog
 tag:
 - GSoC
-- "2018"
-- StarCross
 author: heychirag
 description: I am back as an Organisation Administrator for GSoC 2018
 ---
