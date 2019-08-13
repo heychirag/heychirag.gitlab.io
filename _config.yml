@@ -31,7 +31,7 @@ url: https://chia.ro
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-110591063-1'
+analytics-google: 'UA-110591063-2'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
