@@ -7,3 +7,5 @@ gem 'jekyll-google-photos'
 gem 'fastimage'
 
 gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-gzip", "~> 2.1"
