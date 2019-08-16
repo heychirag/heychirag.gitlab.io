@@ -114,6 +114,15 @@ plugins:
   - jekyll-redirect-from
   - jekyll-google-photos
   - jekyll-gzip
+  - jekyll-archives
+
+jekyll-archives:
+    enabled:
+        - tags
+    permalinks:
+        tag: '/tags/:name/'
+    layouts:
+        tag: tag-archive
 
 jekyll-mentions:
     base_url: https://github.com

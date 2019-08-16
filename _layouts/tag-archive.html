@@ -1,0 +1,23 @@
+---
+layout: page
+title: Tags
+---
+
+<hr>
+
+<section class="tag-list">
+  
+    <h2 class="title" id="{{ page.title | slugify }}">Posts with {{ page.type }} '{{ page.title }}'</h2>
+
+    <ul class="list">
+        {% for post in page.posts %}
+                    <li class="item">
+                        <a class="url" href="{{ site.url }}{{ post.url }}">
+                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                            <h3 class="title">{{ post.title }}</h3>
+                        </a>
+                    </li>
+        {% endfor %}
+    </ul>
+
+</section>
