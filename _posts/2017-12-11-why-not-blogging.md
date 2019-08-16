@@ -5,7 +5,7 @@ date: '2017-12-11 10:52:24 +0530'
 category: blog
 author: heychirag
 tag:
-- Just a Post
+- Aside
 description: First Blog Post
 ---
 
