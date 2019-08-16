@@ -121,8 +121,8 @@ jekyll-archives:
         - tags
         - year
     permalinks:
-        tag: '/tags/:name/'
-        year: '/:year/'
+        tag: '/tag/:name/'
+        year: '/year/:year/'
     layout: archive
 
 jekyll-mentions:
