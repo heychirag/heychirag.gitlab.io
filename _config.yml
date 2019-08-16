@@ -123,9 +123,7 @@ jekyll-archives:
     permalinks:
         tag: '/tags/:name/'
         year: '/:year/'
-    layouts:
-        tag: tag-archive
-        year: year-archive
+    layout: archive
 
 jekyll-mentions:
     base_url: https://github.com

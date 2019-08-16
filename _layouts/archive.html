@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<section class="tag-list">
+
+    {% if page.type == "tag" %}
+        <h2 class="title" id="{{ page.title | slugify }}">Posts with {{ page.type }} '{{ page.title }}'</h2>
+    {% else %}
+        <h2 class="title" id="{{ page.title | slugify }}">Posts from {{ page.date | date: "%Y" }}</h2>
+    {% endif %}
+
+    <ul class="list">
+        {% for post in page.posts %}
+            {% include blog-post.html %}
+        {% endfor %}
+    </ul>
+
+</section>
