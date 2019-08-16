@@ -137,13 +137,9 @@ compress_html:
 defaults:
   -
     scope:
-      path: "about.md"
+      path: ""
+      layout: "post"
     values:
-      sitemap: false
-  -
-    scope:
-      path: "projects.html"
-    values:
-      sitemap: false
+      hidden: false
 
 exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
