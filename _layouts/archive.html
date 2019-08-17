@@ -18,30 +18,6 @@ layout: page
 
 <hr>
 
-{% if page.type == "tag" %}
-    <div class="tags" style="margin-top:0px;">
-        <section class="list">
-            <h4 class="title">Explore by Tag</h4>
-
-            {% assign tags_list = site.tags %}
-
-            {% if tags_list.first[0] == null %}
-                {% for tag in tags_list %}
-                    {% if page.title != tag %}
-                    <a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
-                    {% endif %}
-                {% endfor %}
-            {% else %}
-                {% for tag in tags_list %}
-                    <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-                {% endfor %}
-            {% endif %}
-
-            {% assign tags_list = nil %}
-        </section>
-    </div>
-{% endif %}
-
 <div class="tags" style="margin-top:0px;">
     <section class="list">
         <h4 class="title">Explore by Year</h4>
@@ -65,26 +41,24 @@ layout: page
     </section>
 </div>
 
-{% if page.type != "tag" %}
-    <div class="tags" style="margin-top:0px;">
-        <section class="list">
-            <h4 class="title">Explore by Tag</h4>
+<div class="tags" style="margin-top:0px;">
+    <section class="list">
+        <h4 class="title">Explore by Tag</h4>
 
-            {% assign tags_list = site.tags %}
+        {% assign tags_list = site.tags %}
 
-            {% if tags_list.first[0] == null %}
-                {% for tag in tags_list %}
-                    {% if page.title != tag %}
+        {% if tags_list.first[0] == null %}
+            {% for tag in tags_list %}
+                {% if page.title != tag %}
                     <a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
-                    {% endif %}
-                {% endfor %}
-            {% else %}
-                {% for tag in tags_list %}
-                    <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-                {% endfor %}
-            {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% for tag in tags_list %}
+                <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+            {% endfor %}
+        {% endif %}
 
-            {% assign tags_list = nil %}
-        </section>
-    </div>
-{% endif %}
+        {% assign tags_list = nil %}
+    </section>
+</div>
