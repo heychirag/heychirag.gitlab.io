@@ -32,8 +32,6 @@ title: Blog
 
 <div class="tags" style="margin-top:0px;">
 		<section class="list">
-				<h4 class="title">Explore by Year</h4>
-
 				{% assign years = "" | split: ',' %}
 
 				{% for post in site.posts %}
@@ -50,22 +48,5 @@ title: Blog
 				{% endfor %}
 
 				{% assign years = nil %}
-		</section>
-		<section class="list">
-				<h4 class="title">Explore by Tag</h4>
-
-				{% assign tags_list = site.tags %}
-
-				{% if tags_list.first[0] == null %}
-						{% for tag in tags_list %}
-								<a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
-						{% endfor %}
-				{% else %}
-						{% for tag in tags_list %}
-								<a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-						{% endfor %}
-				{% endif %}
-
-				{% assign tags_list = nil %}
 		</section>
 </div>

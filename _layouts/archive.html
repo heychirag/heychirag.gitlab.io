@@ -5,9 +5,9 @@ layout: page
 <section class="list">
 
     {% if page.type == "tag" %}
-        <h1 class="title" id="{{ page.title | slugify }}">Tag: #{{ page.title | slugify }}</h1>
+        <h1 class="title" id="{{ page.title | slugify }}">#{{ page.title | slugify }}</h1>
     {% else %}
-        <h1 class="title" id="{{ page.title | slugify }}">Year: {{ page.date | date: "%Y" }}</h1>
+        <h1 class="title" id="{{ page.title | slugify }}">{{ page.date | date: "%Y" }}</h1>
     {% endif %}
 
     {% for post in page.posts %}
@@ -18,52 +18,52 @@ layout: page
 
 <hr>
 
-<div class="tags" style="margin-top:0px;">
-    <section class="list">
-        <h4 class="title">Explore by Year</h4>
+{% if page.type == "year" %}
+    <div class="tags" style="margin-top:0px;">
+        <section class="list">
+            {% assign years = "" | split: ',' %}
 
-        {% assign years = "" | split: ',' %}
+            {% for post in site.posts %}
+                {% assign year = post.date | date: "%Y" %}
+                {% assign years = years | push: year %}
+                {% assign year = nil %}
+            {% endfor %}
 
-        {% for post in site.posts %}
-            {% assign year = post.date | date: "%Y" %}
-            {% assign years = years | push: year %}
-            {% assign year = nil %}
-        {% endfor %}
+            {% assign years = years | uniq | sort %}
 
-        {% assign years = years | uniq | sort %}
+            {% assign thisYr = page.date | date: "%Y" %}
+            {% for year in years %}
+                {% if year != thisYr %}
+                    <a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>
+                {% endif %}
+            {% endfor %}
+            {% assign thisYr = nil %}
 
-        {% assign thisYr = page.date | date: "%Y" %}
-        {% for year in years %}
-            {% if year != thisYr %}
-                <a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>
+            {% assign years = nil %}
+        </section>
+    </div>
+{% endif %}
+
+{% if page.type == "tag" %}
+    <div class="tags" style="margin-top:0px;">
+        <section class="list">
+            {% assign tags_list = site.tags %}
+
+            {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %}
+                    {% if page.title != tag %}
+                        <a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% for tag in tags_list %}
+                    {% if page.title != tag[0] %}
+                        <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+                    {% endif %}
+                {% endfor %}
             {% endif %}
-        {% endfor %}
-        {% assign thisYr = nil %}
 
-        {% assign years = nil %}
-    </section>
-</div>
-
-<div class="tags" style="margin-top:0px;">
-    <section class="list">
-        <h4 class="title">Explore by Tag</h4>
-
-        {% assign tags_list = site.tags %}
-
-        {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %}
-                {% if page.title != tag %}
-                    <a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
-                {% endif %}
-            {% endfor %}
-        {% else %}
-            {% for tag in tags_list %}
-                {% if page.title != tag[0] %}
-                    <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-
-        {% assign tags_list = nil %}
-    </section>
-</div>
+            {% assign tags_list = nil %}
+        </section>
+    </div>
+{% endif %}
