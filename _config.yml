@@ -115,6 +115,7 @@ plugins:
   - jekyll-google-photos
   - jekyll-gzip
   - jekyll-archives
+  - jekyll-last-modified-at
 
 jekyll-archives:
     enabled:
