@@ -1,0 +1,43 @@
+---
+title: Resume
+layout: compress
+author: heychirag
+description: Chirag Arora's Resume
+canonical_url: 'https://drive.google.com/file/d/0B2tFDyLBptL3cHFpS1IzTU5TUzg/view?usp=sharing'
+---
+<html lang="en">
+<head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <meta name=description content="{{ site.bio }}">
+    <meta name=author content="{{ site.name }}">
+    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
+    <meta property="og:type" content="profile">
+
+    {% seo %}
+
+    {% include favicon.html %}
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+      .text-justify {
+        text-align: justify;
+      }
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
+
+</head>
+<body>
+    <iframe align="middle" width="100%" height="100%" src="https://drive.google.com/file/d/0B2tFDyLBptL3cHFpS1IzTU5TUzg/preview" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
