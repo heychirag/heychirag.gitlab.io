@@ -30,12 +30,15 @@ layout: page
             {% assign year = nil %}
         {% endfor %}
 
-        {% assign years = years | uniq %}
-        {% assign years = years | sort %}
+        {% assign years = years | uniq | sort %}
 
+        {% assign thisYr = page.date | date: "%Y" %}
         {% for year in years %}
-            <a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>
+            {% if year != thisYr %}
+                <a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>
+            {% endif %}
         {% endfor %}
+        {% assign thisYr = nil %}
 
         {% assign years = nil %}
     </section>
@@ -55,7 +58,9 @@ layout: page
             {% endfor %}
         {% else %}
             {% for tag in tags_list %}
-                <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+                {% if page.title != tag[0] %}
+                    <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+                {% endif %}
             {% endfor %}
         {% endif %}
 
