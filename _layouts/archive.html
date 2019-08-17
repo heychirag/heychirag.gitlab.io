@@ -5,7 +5,7 @@ layout: page
 <section class="list">
 
     {% if page.type == "tag" %}
-        <h1 class="title" id="{{ page.title | slugify }}">Tag: '{{ page.title }}'</h1>
+        <h1 class="title" id="{{ page.title | slugify }}">Tag: #{{ page.title | slugify }}</h1>
     {% else %}
         <h1 class="title" id="{{ page.title | slugify }}">Year: {{ page.date | date: "%Y" }}</h1>
     {% endif %}
