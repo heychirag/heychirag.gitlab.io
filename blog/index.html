@@ -41,7 +41,6 @@ title: Blog
 				{% endfor %}
 
 				{% assign years = years | uniq %}
-				{% assign years = years | sort %}
 
 				{% for year in years %}
 						<a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>

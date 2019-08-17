@@ -29,7 +29,7 @@ layout: page
                 {% assign year = nil %}
             {% endfor %}
 
-            {% assign years = years | uniq | sort %}
+            {% assign years = years | uniq %}
 
             {% assign thisYr = page.date | date: "%Y" %}
             {% for year in years %}
