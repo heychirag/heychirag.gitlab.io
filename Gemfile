@@ -12,4 +12,4 @@ gem "jekyll-last-modified-at", "~> 1.1"
 
 gem "jekyll-paginate-v2", "~> 2.0"
 
-gem "jekyll-google-photos", "~> 1.0.3"
+gem "jekyll-google-photos", "~> 1.1.0"
