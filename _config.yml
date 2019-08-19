@@ -80,13 +80,9 @@ authors:
 # normal = 560px / large = 810px
 width: normal
 
-# if you don't need pagination, switch 'enabled' to false below
-pagination:
-    enabled: true
-    sort_reverse: true # display recent posts first
-    title: ':title' # Changing this will mess up the header display logic
-    per_page: 5 
-    permalink: "/:num/" # pagination link that will be appended
+# if you don't need pagination, comment the *paginate* configs below
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 # projects: true
@@ -119,7 +115,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-gzip
