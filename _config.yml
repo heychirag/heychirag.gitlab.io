@@ -29,7 +29,7 @@ picture: assets/images/profile.jpeg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: http://resume.chia.ro
+resume-url: https://drive.google.com/file/d/0B2tFDyLBptL3cHFpS1IzTU5TUzg/view?usp=sharing
 
 url: https://chia.ro
 # your url: http://USERNAME.github.io
