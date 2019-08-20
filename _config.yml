@@ -28,8 +28,8 @@ picture: assets/images/profile.jpeg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: false
-resume-url: resume
+resume-external: true
+resume-url: http://resume.chia.ro
 
 url: https://chia.ro
 # your url: http://USERNAME.github.io
