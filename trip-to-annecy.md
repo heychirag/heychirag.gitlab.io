@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Trip to Annecy
+category: photos
 ---
 
 # Trip to Annecy
