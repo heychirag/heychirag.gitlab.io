@@ -1,4 +1,4 @@
-timezone: "Asia/Kolkata"
+timezone: "Europe/Amsterdam"
 
 # main text of home
 name: Chirag Arora
@@ -80,9 +80,13 @@ authors:
 # normal = 560px / large = 810px
 width: normal
 
-# if you don't need pagination, comment the *paginate* configs below
-paginate: 5
-paginate_path: "blog/:num/"
+# if you do/don't need pagination, toggle 'enabled' between true/false below
+pagination:
+    enabled: true
+    sort_reverse: true # display recent posts first
+    title: ':title' # Changing this will mess up the header display logic
+    per_page: 5 
+    permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 # projects: true
@@ -109,19 +113,31 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# add default values to specific pages or layouts
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
+    values:
+      # setting all post to not hidden by default, 
+      # can be overridden in the front matter for a specific post
+      hidden: false 
+      
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-admin
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-gzip
   - jekyll-archives
   - jekyll-last-modified-at
   - jekyll-google-photos
+  - jekyll-paginate-v2
+  - jekyll-fontawesome-svg
 
 jekyll-archives:
     enabled:
@@ -141,12 +157,4 @@ compress_html:
         - development
         - stage
 
-defaults:
-  -
-    scope:
-      path: ""
-      layout: "post"
-    values:
-      hidden: false
-
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "node_modules", "vendor"]

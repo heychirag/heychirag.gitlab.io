@@ -1,13 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'github-pages'
-gem 'html-proofer'
-gem 'jekyll-admin'
-
-gem "jekyll-gzip", "~> 2.1"
-
-gem "jekyll-archives", "~> 2.2"
-
-gem "jekyll-last-modified-at", "~> 1.1"
-
-gem "jekyll-google-photos", "~> 1.1.0"
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'html-proofer'
+    gem 'jekyll-admin'
+    gem 'jekyll-fontawesome-svg'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-gist'
+    gem 'jekyll-feed'
+    gem 'jemoji'
+    gem "jekyll-paginate-v2", "~> 2.0"
