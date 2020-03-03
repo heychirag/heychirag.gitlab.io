@@ -14,4 +14,5 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
     gem 'jekyll-gzip'
     gem 'jekyll-archives'
+    gem 'jekyll-last-modified-at'
 end
