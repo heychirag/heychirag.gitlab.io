@@ -11,4 +11,5 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2', "~> 2.0"
     gem 'jekyll-google-photos'
     gem 'jekyll-sitemap'
+    gem 'jekyll-redirect-from'
 end
