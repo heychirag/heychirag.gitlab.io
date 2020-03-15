@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+<section class="list">
+
+    <h1 class="title" id="{{ page.title | slugify }}">{{ page.date | date: "%Y" }}</h1>
+    
+    {% for post in page.posts %}
+        {% include blog-post.html %}
+    {% endfor %}
+
+</section>
+
+<hr>
+
+{% if page.type == "year" %}
+    <div class="tags" style="margin-top:0px;">
+        <section class="list">
+            {% assign years = "" | split: ',' %}
+
+            {% for post in site.posts %}
+                {% assign year = post.date | date: "%Y" %}
+                {% assign years = years | push: year %}
+                {% assign year = nil %}
+            {% endfor %}
+
+            {% assign years = years | uniq %}
+
+            {% assign thisYr = page.date | date: "%Y" %}
+            {% for year in years %}
+                {% if year != thisYr %}
+                    <a class="item" href="{{ site.url }}/year/{{ year }}">{{ year }}</a>
+                {% endif %}
+            {% endfor %}
+            {% assign thisYr = nil %}
+
+            {% assign years = nil %}
+        </section>
+    </div>
+{% endif %}

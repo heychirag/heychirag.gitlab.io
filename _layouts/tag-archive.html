@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+<section class="list">
+
+    <h1 class="title" id="{{ page.title | slugify }}">#{{ page.title | slugify }}</h1>
+    
+    {% for post in page.posts %}
+        {% include blog-post.html %}
+    {% endfor %}
+
+</section>
+
+<hr>
+
+{% if page.type == "tag" %}
+    <div class="tags" style="margin-top:0px;">
+        <section class="list">
+            {% assign tags_list = site.tags %}
+
+            {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %}
+                    {% if page.title != tag %}
+                        <a class="item" href="{{ site.url }}/tag/{{ tag | slugify }}">{{ tag }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% for tag in tags_list %}
+                    {% if page.title != tag[0] %}
+                        <a class="item" href="{{ site.url }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+            {% assign tags_list = nil %}
+        </section>
+    </div>
+{% endif %}
