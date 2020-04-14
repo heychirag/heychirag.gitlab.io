@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+SITEMAP: https://chira.ga/sitemap.xml
+
