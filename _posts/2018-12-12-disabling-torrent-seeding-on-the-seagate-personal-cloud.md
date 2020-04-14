@@ -68,22 +68,24 @@ Cheers!
 I found many people are unable to find `settings.json` in the above path. So here is what you have to do:
 {: .text-justify}
 
-* Find the original `settings.json`. For this, go to the root of your Seagate drive and run a `find` command.{: .text-justify}
+* Find the original `settings.json`. For this, go to the root of your Seagate drive and run a `find` command.
+{: .text-justify}
 
 {% highlight shell %}
 [root@PersonalCloud shares]# cd /
 [root@PersonalCloud /]# find . -name "settings.json" -maxdepth 6
 ./root/.config/transmission-daemon/settings.json
 ./lacie/torrent_dir/transmission/settings.json
-./media/internal_1/torrent_dir/transmission/settings.json
+./media/internal_1/torrent_dir/transmission/settings.json  "<=== this one"
 ./media/internal_1/shares/2/data/settings.json
 ./rw/0/root/.config/transmission-daemon/settings.json
 ./rw/1/root/.config/transmission-daemon/settings.json
 ./shares/chirag/settings.json
 {% endhighlight %}
 
-* After checking the contents of each, `./media/internal_1/torrent_dir/transmission/settings.json` seems to be our best bet. Copy this file to  `/root/.config/transmission-daemon/settings.json`.
-* That's it! Make changes to this config and restart your download manager to see the changes in effect.{: .text-justify}
+* After checking the contents, the highlighted file seems to be our best bet. Copy this to  `/root/.config/transmission-daemon/settings.json`.
+* That's it! Make changes to this config and restart your download manager to see the changes in effect.
+{: .text-justify}
 
 
 <div class="breaker"></div>
