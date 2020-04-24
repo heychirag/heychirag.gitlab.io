@@ -69,11 +69,11 @@ stackoverflow: 6900540
 email: me@chia.ro
 
 authors:
-    heychirag:
-        name: Chirag Arora
-        bio: Incoming SDE@Amazon
-        external-image: false
-        picture: assets/images/profile.jpeg
+  heychirag:
+    name: Chirag Arora
+    bio: Incoming SDE@Amazon
+    external-image: false
+    picture: assets/images/profile.jpeg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -82,11 +82,11 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-    enabled: true
-    sort_reverse: true # display recent posts first
-    title: ':title' # Changing this will mess up the header display logic
-    per_page: 5 
-    permalink: "/:num/" # pagination link that will be appended
+  enabled: true
+  sort_reverse: true # display recent posts first
+  title: ":title" # Changing this will mess up the header display logic
+  per_page: 5
+  permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 # projects: true
@@ -115,15 +115,14 @@ animation: true
 
 # add default values to specific pages or layouts
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       layout: "post"
     values:
-      # setting all post to not hidden by default, 
+      # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
-      hidden: false 
-      
+      hidden: false
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
@@ -151,12 +150,21 @@ jekyll-archives:
         tag: tag-archive
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
 compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
+  ignore:
+    envs:
+      - development
+      - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "node_modules", "vendor"]
+exclude:
+  [
+    "travis.sh",
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "node_modules",
+    "vendor",
+  ]
