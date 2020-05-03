@@ -17,11 +17,8 @@ So this has been plaguing me for quite a while now. The idea of parallel worlds 
 The explanation is quite amazing but it also made me pinpoint the biggest flaws in this theory - it deals with infinities! So as you must have seen, according to many-worlds theory, there is no actual collapse of the Wave function and all possible outcomes of quantum measurements are physically realized in some ‘world’ or universe. Stress on the statement <span class="evidence">‘all possible outcomes of quantum measurements’</span>. Exactly, you see the problem here? Let me explain.
 {: .text-justify}
 
-A wave function is a continuous function, in other words, it exists at every point in the given range without having a break or a discontinuity. So as the above statement suggests, a quantum particle like an electron must exist at every point in its probability sphere (or _orbitals_; the fancy term) across all different parallel universes.
+A wave function is a continuous function, in other words, it exists at every point in the given range without having a break or a discontinuity. So as the above statement suggests, a quantum particle like an electron must exist at every point in its probability sphere across all different parallel universes.
 {: .text-justify}
-
-<div><img src="/assets/images/Hydrogen_Density_Plots.png" alt="">
-<figcaption class="caption">Atomic orbitals of the electron in a hydrogen atom at different energy levels. The probability of finding the electron is given by the color, as shown in the key at upper right.</figcaption></div>
 
 Let’s see the implications of this being true. For the sake of simplicity, let’s consider an electron in a single-dimensional world with the wave function as $ y = e^{-8x^2} $.
 {: .text-justify}
