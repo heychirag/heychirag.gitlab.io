@@ -14,7 +14,7 @@ So this has been plaguing me for quite a while now. The idea of parallel worlds 
 
 <iframe width="560" height="300" src="https://www.youtube.com/embed/kTXTPe3wahc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The explanation is quite amazing but it also made me pinpoint the biggest flaws in this theory - it deals with infinities! So as you must have seen, according to many-worlds theory, there is no actual collapse of the Wave function and all possible outcomes of quantum measurements are physically realized in some ‘world’ or universe. Stress on the statement <span class="evidence">‘all possible outcomes of quantum measurements’</span>. Exactly, you see the problem here? Let me explain.
+The explanation is quite amazing but it also made me pinpoint the biggest flaw in this theory - it deals with infinities! So as you must have seen, according to many-worlds theory, there is no actual collapse of the Wave function and all possible outcomes of quantum measurements are physically realized in some ‘world’ or universe. Stress on the statement <span class="evidence">‘all possible outcomes of quantum measurements’</span>. Exactly, you see the problem here? Let me explain.
 {: .text-justify}
 
 A wave function is a continuous function, in other words, it exists at every point in the given range without having a break or a discontinuity. So as the above statement suggests, a quantum particle like an electron must exist at every point in its probability sphere across all different parallel universes.
