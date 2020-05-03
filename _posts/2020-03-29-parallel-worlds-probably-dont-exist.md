@@ -6,7 +6,7 @@ category: blog
 author: heychirag
 tag:
 - Science
-- Aside
+- Philosophy
 ---
 
 So this has been plaguing me for quite a while now. The idea of parallel worlds sounds fascinating, but it has been a center of skepticism among the eyes of many. I have never believed in it myself and probably wouldn’t until I see an experimental proof of it. But [Veritasium](https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA) uploaded a very compelling video that attempts to explain why parallel worlds probably exist. I have always admired his way of explaining things; extremely lucid and comprehensible. And this made me think hmmmm... this might actually be true! Parallel worlds probably do exist! It’s a great video. Watch it yourself and you may start believing in their existence too.
